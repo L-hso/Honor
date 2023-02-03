@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+}
+body {
+  background: #111827;
+  overflow: hidden;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.03125rem solid #b2b6bd;
+}
+.container {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+}
+.content {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 10rem;
+  z-index: 1;
+}
+.container:hover .content {
+  display: inline-block;
+}
+.content a {
+  display: block;
+  padding: 0.75rem;
+  text-decoration: none;
+  color: #f9f9f9;
+  text-align: center;
+  font-family: CHB;
+}
+.content a:hover {
+  background: #f9f9f9;
+  color: #111827;
+}
+.span {
+  display: block;
+  padding: 0.5rem 1.25rem;
+  font-family: OSEB;
+  color: #f9f9f9;
+  cursor:default;
+}
+.btnp {
+  display: block;
+  position: relative;
+  left: 7rem;
+  top: 7rem;
+  max-width: 28rem;
+  font-size: 1.0625rem;
+  justify-content: center;
+}
+@font-face {
+  font-family: CHB;
+  src: url('CooperHewitt-Book.otf');
+}
+.btnp p{
+  text-align: justify;
+  font-family: CHB;
+  color: #f9f9f9;
+}
+@font-face{
+  font-family: OSEB;
+  src: url('OSEB.ttf');
+}
+.btnp h1{
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: OSEB;
+  font-size: 3.5rem;
+  color: #f9f9f9;
+}
+.btn {
+  position: relative;
+  left: 50%;
+  top: 3rem;
+  transform: translateX(-50%);
+  width: 6rem;
+  height: 2rem;
+  background: #f9f9f9;
+  color: #0d0c0e;
+  border: 0.0625rem solid #f9f9f9;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #111827;
+  color: #f9f9f9;
+}
+.logo {
+  display: grid;
+  grid-template: 5rem 5rem 5rem 5rem/5rem 5rem 5rem;
+  position: relative;
+  left: 45rem;
+  bottom: 8rem;
+}
+#a,
+#c,
+#e {
+  background: rgb(58, 58, 58);
+}
+#b,
+#d,
+#f {
+  background: gainsboro;
+}
+#a {
+  border-radius: 50% 50% 0 0;
+}
+#b {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+#c {
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+#d,
+#e,
+#f {
+  grid-row: 4/5;
+}
+#d {
+  grid-column: 1/2;
+  border-radius: 0 0 0 50%;
+}
+#e {
+  grid-column: 2/3;
+}
+#f {
+  grid-column: 3/4;
+  border-radius: 0 50% 50% 0;
+}
+.logo div{
+  transition: .5s;
+}
+.logo div:hover{
+  transform: scale(.8);
+}
