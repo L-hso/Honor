@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  scroll-behavior: smooth;
+}
+ul{
+  list-style-type: none;
+  height: 6vh;
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background: #276FBF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+}
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+  width: 10vw;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.25rem;
+  color: #F6F4F3;
+  text-decoration: none;
+}
+.item:hover{
+  background: #183059;
+}
+div{
+  height: 100vh;
+  max-width: 100vw;
+  color: white;
+}
+div h1{
+  position: relative;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+}
+div p{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 50%;
+}
+div button{
+  position: relative;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 8rem;
+  height: 2rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  background: #d3d3d3;
+}
+#primeiro{
+  background-image: url("wp2835245-fight-club-wallpaper-hd.jpg");
+}
+#segundo{
+  background-image: url("wallpapersden.com_anya-taylor-joy-the-queens-gambit_1920x1080.jpg");
+  background-size: auto;
+}

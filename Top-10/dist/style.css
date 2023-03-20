@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style-type: none;
+  height: 6vh;
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background: #276FBF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+  width: 10vw;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.25rem;
+  color: #F6F4F3;
+  text-decoration: none;
+}
+.item:hover{
+  background: #183059;
+}
+div{
+  height: 100vh;
+}
+#primeiro{
+  background: tomato;
+}
+#segundo{
+  background: blue;
+}
