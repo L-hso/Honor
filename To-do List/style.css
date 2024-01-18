@@ -44,7 +44,7 @@ img{
     font-family: 600;
     padding:5px 16px;
     border: none;
-    box-sizing: 15px;
+    border-radius: 15px;
     background-color: #1e1e1e;
     color:#efefef;
     align-self: flex-start;
