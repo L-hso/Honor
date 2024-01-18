@@ -15,6 +15,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    width:100vw;
+    height:100vh;
 }
 .container{
     display: flex;
@@ -39,7 +41,10 @@ img{
 
 .container span{
     font-family: 600;
-    padding:5 16;
+    padding:5px 16px;
+    border: none;
+    box-sizing: 15px;
     background-color: #1e1e1e;
     color:#efefef;
+    align-self: flex-start;
 }
