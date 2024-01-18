@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -8,18 +8,19 @@
 
 }
 
-body{
-    font-family:"Sora", sans-serif;
+body {
+    font-family: "Sora", sans-serif;
     background-color: #efefef;
 
     color: #1e1e1e;
     display: flex;
     justify-content: center;
     align-items: center;
-    width:100vw;
-    height:100vh;
+    width: 100vw;
+    height: 100vh;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -29,32 +30,34 @@ body{
     border: none;
     border-radius: 15px;
 
-    box-shadow: 6px 8px 5px 2px rgba(158,158,158,0.33);
+    box-shadow: 6px 8px 5px 2px rgba(158, 158, 158, 0.33);
     background-color: #fff;
 }
 
-img{
+img {
     max-width: 336px;
-    border:none;
-    border-radius:15px;
+    border: none;
+    border-radius: 15px;
 
 }
 
-#tag{
+#tag {
     font-family: 600;
-    padding:5px 16px;
+    font-size: 10px;
+    padding: 5px 24px;
     border: none;
     border-radius: 15px;
     background-color: #1e1e1e;
-    color:#efefef;
+    color: #efefef;
     align-self: flex-start;
 }
 
-p{
+p {
     font-family: 14px;
 
 }
-#nome{
+
+#nome {
     font-family: 400;
 
 }
