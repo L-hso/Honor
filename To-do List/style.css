@@ -40,4 +40,6 @@ img{
 .container span{
     font-family: 600;
     padding:5 16;
+    background-color: #1e1e1e;
+    color:#efefef;
 }
