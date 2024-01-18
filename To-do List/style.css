@@ -9,15 +9,9 @@
 }
 
 body{
-    font-family:Sora, sans-serif;
+    font-family:"Sora", sans-serif;
     background-color: #efefef;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-
+ 
 }
 .container{
     display: flex;
@@ -34,5 +28,5 @@ body{
 }
 
 img{
-    max-width: 100%;
+    max-width: 336;
 }
