@@ -11,7 +11,10 @@
 body{
     font-family:"Sora", sans-serif;
     background-color: #efefef;
- 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container{
     display: flex;
@@ -28,5 +31,13 @@ body{
 }
 
 img{
-    max-width: 336;
+    max-width: 336px;
+    border:none;
+    border-radius:15px;
+
+}
+
+.container span{
+    font-family: 600;
+    padding:5 16;
 }
