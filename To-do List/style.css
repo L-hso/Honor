@@ -12,6 +12,7 @@ body{
     font-family:"Sora", sans-serif;
     background-color: #efefef;
 
+    color:#efefef;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +40,7 @@ img{
 
 }
 
-.container span{
+#tag{
     font-family: 600;
     padding:5px 16px;
     border: none;
@@ -47,4 +48,13 @@ img{
     background-color: #1e1e1e;
     color:#efefef;
     align-self: flex-start;
+}
+
+p{
+    font-family: 14px;
+
+}
+#nome{
+    font-family: 400;
+
 }
